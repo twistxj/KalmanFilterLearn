@@ -12,7 +12,7 @@ q_est = [1; 0; 0; 0]; % Initial quaternion (no rotation)
 P = eye(4) * 0.01; % Initial covariance matrix
 Q = diag([0.019,0.019,0.019,0.019]); % Process noise covariance
 R = eye(3) * 0.015; % Measurement noise covariance
-use_multiplicative = false; % Toggle between additive and multiplicative EKF
+use_multiplicative = true; % Toggle between additive and multiplicative EKF
 
 % Storage for results
 q_history = zeros(length(time), 4);
