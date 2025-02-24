@@ -1,0 +1,10 @@
+IMU:
+	frequency: 200
+	start_time_s: 0
+	end_time_s: 60
+	acc_noise_sigma: 0.019    # m/sqrt(s^3)     (continuous noise)
+	gyro_noise_sigma: 0.015   # rad/sqrt(s)     (continuous noise)
+	acc_bias_sigma: 0.0001    # m/sqrt(s^5)     (continuous bias)
+	gyro_bias_sigma: 2.0e-5   # rad/sqrt(s^3)   (continuous bias)
+
+Gravity: [0, 0, -9.81]
